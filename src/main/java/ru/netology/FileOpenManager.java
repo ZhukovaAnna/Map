@@ -1,14 +1,8 @@
 package ru.netology;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
 import java.util.*;
 
-@NoArgsConstructor
-@AllArgsConstructor
-@Data
+
 public class FileOpenManager {
     HashMap<String, String> map = new HashMap<>();
 
